@@ -13,6 +13,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+/* inicio estilo social header / menu */
 .conteudo-social {
     background-color: #080324;
     width: 100%;
@@ -23,10 +24,212 @@ body {
     justify-content: flex-end;
     align-items: center;
     padding-right: 1.0em;
+    /* padding-top: 0.2%; */
 }
 .conteudo-social a {
     color: white;
     text-decoration: none;
     font-size: 25px;
     padding-left: 0.5em;
+    vertical-align: middle;
 }
+.conteudo-social .fa-youtube:hover{
+    color: red;
+}
+.conteudo-social .fa-facebook:hover{
+    color: blue;
+}
+.conteudo-social .fa-twitter:hover{
+    color: rgb(0, 162, 255);
+}
+.conteudo-social .fa-instagram:hover{
+    background: -webkit-linear-gradient(rgb(0, 47, 255), rgb(81, 0, 128), rgb(255, 0, 251), rgb(225, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.conteudo-social .fa-spotify:hover{
+    color: lime;
+}
+header {
+    z-index: 1;
+    background-color: #f9003d;
+    height: 80px;
+    position: fixed;
+    width: 100vw;
+    top: 35px;
+}
+.conteudo-header {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.logo {
+    height: 40px;
+}
+.menu-header {
+    width: 50%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    transition: 0.3s;
+}
+.menu-header a:hover:not(.botao) {
+    font-size: 1.6em;
+    color: white;
+}
+.menu-header #font {
+    font-family: 'Bebas Neue', sans-serif !important;
+}
+.whatsapp {
+    position: fixed;
+    z-index: 2;
+    top: 82%;
+    right: 40px;
+}
+.whatsapp img {
+    height: 60px;
+}
+.botao {
+    background-color: #a259f7;
+    height: 45px;
+    width: 150px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 1.5em !important;
+    border: solid 1px #080324;
+    border-radius: 30px 10px;
+}
+.botao:hover {
+    color: white;
+    font-size: 1.6em !important;
+    height: 50px;
+    line-height: 50px;
+    width: 160px;
+    transition: 0.3s;
+    box-shadow: 4px 4px 6px #0000007a;
+}
+.menu-barras {
+    display: none;
+}
+/* Fim estilo social header / menu */
+/* inicio estilo banner */
+.banner{
+    background-image: url(../img/imagem-fundo-banner.jpg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.conteudo-banner {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+.texto-banner {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-around;
+}
+h1 {
+    color: white;
+    font-size: 80px;
+}
+.linha-amarela {
+    border: solid 1px #FFAF00;
+    box-shadow: 1px 1px 3px gold;
+}
+.titulo-senai {
+    font-family:'Courier New', Courier, monospace;
+    color: #f9003d;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.mouse {
+    width: 80px;
+}
+/* fim estilo banner */
+/* inicio sobre projetos */
+.sobre-projetos {
+    background-color: #080324;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sobre-projetos h2 {
+    color: #f9003d;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.conteudo-sobre {
+    display: flex;
+    justify-content: space-between;
+}
+.imagem-sobre {
+    width: 40%;
+}
+.texto-sobre {
+    width: 50%;
+}
+.texto-participantes {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+.conteudo-sobre h3 {
+    color: #FFAF00;
+    font-size: 45px;
+    font-weight: 500;
+}
+.texto-sobre p {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+/* fim sobre projetos */
+/* Inicio estilo seção info */
+.info {
+    background-image: url(../img/imagem-fundo-info.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+}
+.conteudo-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.card-info {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.card-info h3 {
+    color: #ffffff;
+    font-size: 20px;
+}
+.card-info p {
+    color: #a259f7;
+    font-size: 22px;
+    font-weight: 600;
+    border: solid 2px #a259f7;
+    width: 250px;
+    padding: 30px 0;
+    text-align: center;
+}
+/* Fim estilo seção info */
+/* Inicio estilo localização / Rodape */
+
+/* Fim estilo localização / Rodape */

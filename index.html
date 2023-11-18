@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,10 @@
     <script src="https://kit.fontawesome.com/4b225fd781.js" crossorigin="anonymous"></script>
     <title>Landing Page | Senai Informática</title>
 </head>
+
 <body>
-       <!-- Inicio redes sociais -->
-       <section>
+    <!-- Inicio redes sociais -->
+    <section>
         <div class="conteudo-social">
             <a href="https://www.youtube.com" class="fa fa-youtube" aria-hidden="true" target="_blank"></a>
             <a href="https://www.facebook.com" class="fa fa-facebook" aria-hidden="true" target="_blank"></a>
@@ -18,11 +20,107 @@
             <a href="https://www.instagram.com" class="fa fa-instagram" aria-hidden="true" target="_blank"></a>
             <a href="https://www.spotify.com" class="fa fa-spotify" aria-hidden="true" target="_blank"></a>
         </div>
-       </section>
-       <!-- Fim redes sociais -->
-       <!-- Início Header >> Menu -->
-
-       <!-- Fim Header >> Menu -->
-
+    </section>
+    <!-- Fim redes sociais -->
+    <!-- Início Header >> Menu -->
+    <header>
+        <div class="container-grid conteudo-header">
+            <img class="logo" src="./img/logos_senai_branco.png" alt="Logo Senai">
+            <nav id="menu-header" class="menu-header">
+                <a href="#" title="Inicio da Pagina" class="fa-solid fa-house"></a>
+                <a id="font" href="#">Sobre</a>
+                <a id="font" href="#">Endereço</a>
+                <a id="font" class="botao" href="mailto:giovana.bruno@aluno.senai.br">Contate-nos</a>
+            </nav>
+            <a class="menu-barras" href="javascript: void(0)" onclick="mostrarMenu()">
+            <i id="icone-menu" class="fas fa-bars"></i>
+        </a>
+        </div>
+    </header>
+    <!-- Fim Header >> Menu -->
+    <!-- inicio whats -->
+    <section class="whatsapp">
+        <div class="container-grid logo-whats">
+            <a href="#" target="_blank"><img src="./img/whats.png" alt="contato whatsapp"></a>
+        </div>
+    </section>
+    <!-- fim whats -->
+    <!-- inicio main -->
+    <main>
+        <!-- inicio banner -->
+        <div class="banner">
+            <div class="container-grid conteudo-banner">
+                <div class="texto-banner">
+                    <h1>Cursos Técnicos Senai</h1>
+                    <div class="linha-amarela"></div>
+                    <span class="titulo-senai">Senai Informática</span>
+                    <img class="mouse" id="mouse" src="./img/mouse-down.png" alt="imagem de um mouse"/>
+                </div>
+            </div>
+        </div>
+        <!-- fim banner -->
+        <!-- Inicio Sobre projetos -->
+        <section class="sobre-projetos">
+            <div class="container-grid">
+                <h2>Sobre Projetos</h2>
+                <div class="conteudo-sobre">
+                    <img class="imagem-sobre" src="./img/imagem-seção-sobre.jpg"
+                        alt="professor explicando conteudo para varios alunos" />
+                    <div class="texto-sobre">
+                        <span class="texto-participantes">Participantes</span>
+                        <h3>Mais de 80 alunos organizados em 16 grupos</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic autem eius incidunt
+                            nostrum recusandae deleniti beatae. Nobis quos sit sapiente, tempora architecto hic atque
+                            sed animi, quas deleniti ex.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fim Sobre projetos -->
+        <!-- Inicio sessão info -->
+        <section class="info">
+            <div class="container-grid conteudo-info">
+                <div class="card-info">
+                    <h3>Local</h3>
+                    <p>São Paulo</p>
+                </div>
+                <div class="card-info">
+                    <h3>Duração</h3>
+                    <p>90 dias</p>
+                </div>
+                <div class="card-info">
+                    <h3>Desafios</h3>
+                    <p>+30 desafios</p>
+                </div>
+            </div>
+        </section>
+        <!-- Fim sessão info -->
+        <!-- Inicio endereço -->
+        <section class="endereco" id="endereco">
+            <div class="container-grid conteudo-endereco">
+                <h2>Endereço</h2>
+                <div class="texto-endereco">
+                    <p>
+                        Alameda Barão de Limeira, 539, Santa Cecília, São Paulo-SP CEP:01202-001
+                    </p>
+                </div>
+                <div class="container-mapa">
+                    <a href="#" target="_blank">
+                        <img src="./img/mapa.png" alt="Mapa mostrando a localização">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Fim endereço -->
+        <!-- Inicio footer -->
+        <footer>
+            <span>Copyright &copy; 2023 - Escola Senai de Informática</span>
+        </footer>
+        <!-- Fim footer -->
+    </main>
+    <!-- fim main -->
 </body>
+
 </html>
